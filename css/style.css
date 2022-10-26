@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+
+}
+.titulo_texto {
+    color: darkorange;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: cursive;
+}
+.nav_titulo {
+    color: darkorange;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: cursive;
+}
+.imagen_cultivador {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#clickbtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    color: darkorange;
+    font-size: 18px;
+    font-family:cursive;
+    box-shadow: 0px 0px 6px #444;
+    background-image: url("/Mi-primer-juego-JS/images/yinyan.png");
+    position: center;
+    margin-left: 46%;
+  }
+  #clickbtn:hover {
+    background-color: #222222;
+    box-shadow: 0px 0px 11px #00ddff;
+  }
+  
+  #score {
+    font-size: 10px;
+    font-family: cursive;
+    color: white;
+    position: absolute;
+    margin-left: 46%;
+  }
+
+
+
