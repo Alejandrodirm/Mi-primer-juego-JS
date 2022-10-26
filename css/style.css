@@ -18,6 +18,19 @@ body {
     width: 50%;
     font-family: cursive;
 }
+#preguntas {
+    color: darkorange;
+    width: 50%;
+    font-family: cursive;
+    
+}
+#nav_titulo{
+    color: darkorange;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: cursive;
+}
 .imagen_cultivador {
 
     display: block;
@@ -47,7 +60,7 @@ body {
     font-family: cursive;
     color: white;
     position: absolute;
-    margin-left: 46%;
+    margin-left: 46.5%;
   }
 
 
