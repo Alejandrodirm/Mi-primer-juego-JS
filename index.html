@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,30 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="/Mi-primer-juego-JS/images/icon.webp">
     <title>Cultivación</title>
-    
+
 </head>
+
 <body>
     <header class="titulo">
-        <p class="titulo_texto">Bienvenido al simulador de cultivación , para poder ascender al mundo de los inmortales</p>
+        <p class="titulo_texto">Bienvenido al simulador de cultivación , para poder ascender al mundo de los inmortales
+        </p>
     </header>
     <nav>
-       <p id="nav_titulo">The inmortal cultivation</p> 
-       <button id="clickbtn" onclick="clickBtn()">Cultivar</button>
-       <p id ="score">Poder Cultivado: 0</p>
-       <p id="preguntas">dfhbfjhsd</p>
+        <p id="nav_titulo">The inmortal cultivation</p>
+        <button id="clickbtn" onclick="clickBtn()">Cultivar</button>
+        <p id="score">Poder Cultivado: 0</p>
+        <div class="preguntas">
+        <div class="pregunta" id="pregunta"></div>
+        <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+        <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+        <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+        <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
     </nav>
     <section class="cultivador">
         <img src="/Mi-primer-juego-JS/images/CultivationPj.webp" class="imagen_cultivador">
     </section>
     <script src="/Mi-primer-juego-JS/js/myscript.js"></script>
-    
+
 </body>
+
 </html>

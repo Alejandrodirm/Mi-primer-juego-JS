@@ -20,10 +20,15 @@ body {
 }
 #preguntas {
     color: darkorange;
-    width: 50%;
+    width: 30%;
     font-family: cursive;
     
 }
+/*
+.imagen_cultivador {
+    margin-top: -150px;
+}
+*/
 #nav_titulo{
     color: darkorange;
     margin-left: auto;
@@ -62,6 +67,3 @@ body {
     position: absolute;
     margin-left: 46.5%;
   }
-
-
-

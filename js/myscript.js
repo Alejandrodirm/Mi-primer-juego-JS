@@ -3,6 +3,8 @@
 //https://es.scribd.com/document/443945970/Adivinanzas-chinas
 //https://www.youtube.com/watch?v=J-IVrJa_k2s
 //https://www.youtube.com/watch?v=bkvLa8BI9zc
+//preguntas https://www.youtube.com/watch?v=5pHOGw2xhM4
+//https://www.youtube.com/watch?v=st8aZ1TWAKY
 var score = 0;
 function clickBtn() {
     score++;
@@ -23,7 +25,8 @@ function clickBtn() {
         document.getElementById("nav_titulo").innerHTML = "The inmortal cultivation:Physical Complete , Mind Complete and Soul Complete"
     }
 }
-function segundaPrueba() {
+
+/*function segundaPrueba() {
     let texto = ["Felicidades por llegar hasta aquí ", "pero ahora tu camino a la ascensión se complicará aun más", "para ascender al siguiente paso deberas desarrollar tu mente en pos de la ascensión"]
     let preguntas = ["Este hombre tiene nombre de absoluta confusión pero lo que hace es decirnos cómo vivir con amor"
         , "Un príncipe que pensaba que Sidharta se llamó, se dedicó a ser un santo barrigón y bonachón"
@@ -38,4 +41,4 @@ function segundaPrueba() {
       //  }, 5000);
     }
 }
-
+*/
