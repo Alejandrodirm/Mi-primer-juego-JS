@@ -10,35 +10,36 @@ function clickBtn() {
     score++;
     document.getElementById("score").innerHTML = "Poder Cultivado: " + score;
 
-    if (score > 5) {
+    if (score > 10) {
         document.body.style.backgroundColor = "#33E0FF";
         document.getElementById("nav_titulo").innerHTML = "The inmortal cultivation: Physical Complete";
-        segundaPrueba();
-        
     }
-    if (score > 10) {
+    if (score > 20) {
         document.body.style.backgroundColor = "#AF33FF";
         document.getElementById("nav_titulo").innerHTML = "The inmortal cultivation:Physical Complete and Mind Complete"
     }
-    if (score > 15) {
+    if (score > 40) {
         document.body.style.backgroundColor = "#FFB833";
         document.getElementById("nav_titulo").innerHTML = "The inmortal cultivation:Physical Complete , Mind Complete and Soul Complete"
+        
     }
 }
+function resultado() {
+    var p1, p2, p3, p4, nota;
 
-/*function segundaPrueba() {
-    let texto = ["Felicidades por llegar hasta aquí ", "pero ahora tu camino a la ascensión se complicará aun más", "para ascender al siguiente paso deberas desarrollar tu mente en pos de la ascensión"]
-    let preguntas = ["Este hombre tiene nombre de absoluta confusión pero lo que hace es decirnos cómo vivir con amor"
-        , "Un príncipe que pensaba que Sidharta se llamó, se dedicó a ser un santo barrigón y bonachón"
-        , "La casita de un gusano el campesino la transformó, en un kimono elegante, en bufanda y pantalón",
-        "Para los soles y lluvias hay un sombrero alón, que le queda bien a todos, hasta al mas cabezón"
-        , "Mil soldados muy furioso con pies de barro encontró un sembrador,pero nunca se asustó",]
-    let respuestas = [""]
-    for (i = 0; i >= texto.length - 1; i++) {
-        //setTimeout(()=>{
-            
-            document.getElementById("preguntas").innerHTML ="".texto[i]
-      //  }, 5000);
+    if (document.getElementById('p1').checked == true) { p1 = 1 }
+    else { p1 = 0 }
+    if (document.getElementById('p6').checked == true) { p2 = 1 }
+    else { p2 = 0 }
+    if (document.getElementById('p11').checked == true) { p3 = 1 }
+    else { p3 = 0 }
+    if (document.getElementById('p16').checked == true) { p4 = 1 }
+    else { p4 = 0 }
+    nota = p1 + p2 + p3 + p4;
+    if (nota >= 3) {
+        score=score+10;
+        document.getElementById("score").innerHTML = "Poder Cultivado: " + score;
+    }else{
+        location.reload();
     }
 }
-*/

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/Mi-primer-juego-JS/images/icon.webp">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/icon.webp">
     <title>Cultivación</title>
 
 </head>
@@ -20,17 +20,36 @@
         <p id="nav_titulo">The inmortal cultivation</p>
         <button id="clickbtn" onclick="clickBtn()">Cultivar</button>
         <p id="score">Poder Cultivado: 0</p>
-        <div class="preguntas">
-        <div class="pregunta" id="pregunta"></div>
-        <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
-        <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
-        <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
-        <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+        <div class="preguntas" id="preguntas">
+            <p>Un príncipe que pensaba que Sidharta se llamó, se dedicó a ser un santo barrigón y bonachón</p>
+            <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta1" id="p1"> Buda</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p2"> Jesucristo el Robot del Futuro</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p3"> Pulpo Pol</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p4"> Alá</p>
+             
+            <p>La casita de un gusano el campesino la transformó, en un kimono elegante, en bufanda y pantalón</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p5"> Tela</p>
+            <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta2" id="p6"> Seda</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p7"> Son económicos , digo que papel</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p8"> yo solo se que no se dana</p>
+             
+            <p>Este hombre tiene nombre de absoluta confusión pero lo que hace es decirnos cómo vivir con amor</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p9"> A mi no me manda ni mi madre</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p10"> El viejo sabio de mi barrio</p>
+            <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta3" id="p11"> Confucio</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p12"> Confundido</p>
+             
+            <p>Para los soles y lluvias hay un sombrero alón, que le queda bien a todos, hasta al mas cabezón</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p13"> Gorra</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p14"> Visera</p>
+            <p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p15"> Impermeable</p>
+            <p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta4" id="p16"> Paraguas</p>
+            <p><input type="button" value="resultado" onclick="resultado()"/></p>
     </nav>
     <section class="cultivador">
-        <img src="/Mi-primer-juego-JS/images/CultivationPj.webp" class="imagen_cultivador">
+        <img src="images/CultivationPj.webp" class="imagen_cultivador">
     </section>
-    <script src="/Mi-primer-juego-JS/js/myscript.js"></script>
+    <script src="/js/myscript.js"></script>
 
 </body>
 

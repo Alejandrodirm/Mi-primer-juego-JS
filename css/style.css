@@ -20,9 +20,9 @@ body {
 }
 #preguntas {
     color: darkorange;
-    width: 30%;
+    width: 25%;
     font-family: cursive;
-    
+    margin-top: -170px;
 }
 /*
 .imagen_cultivador {
@@ -40,20 +40,25 @@ body {
 
     display: block;
     margin-left: auto;
+    margin-top: -750px;
     margin-right: auto;
     width: 25%;
+    
 }
 #clickbtn {
     width: 100px;
     height: 100px;
-    border-radius: 200px;
+    border-radius: 100px;
     color: darkorange;
     font-size: 18px;
     font-family:cursive;
     box-shadow: 0px 0px 6px #444;
-    background-image: url("/Mi-primer-juego-JS/images/yinyan.png");
+    background-image: url("../images/yinyan.png");
     position: center;
     margin-left: 46%;
+    background-position: center;
+    background-size: 160%;
+
   }
   #clickbtn:hover {
     background-color: #222222;
