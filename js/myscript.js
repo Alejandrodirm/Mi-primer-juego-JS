@@ -1,11 +1,5 @@
-//https://codepen.io/Draimy/pen/BQBBqL
-//https://htmlcolorcodes.com/es/
-//https://es.scribd.com/document/443945970/Adivinanzas-chinas
-//https://www.youtube.com/watch?v=J-IVrJa_k2s
-//https://www.youtube.com/watch?v=bkvLa8BI9zc
-//preguntas https://www.youtube.com/watch?v=5pHOGw2xhM4
-//https://www.youtube.com/watch?v=st8aZ1TWAKY
 var score = 0;
+//funcion para el cliker
 function clickBtn() {
     score++;
     document.getElementById("score").innerHTML = "Poder Cultivado: " + score;
@@ -24,6 +18,7 @@ function clickBtn() {
         
     }
 }
+//funcion para las preguntas y contabilizar aciertos
 function resultado() {
     var p1, p2, p3, p4, nota;
 
